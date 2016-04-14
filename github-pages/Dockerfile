@@ -4,7 +4,7 @@ ENV RUBY_VERSION 2.2.0
 ENV HOME /root
 # Add repositoroes and install dependencies
 
-RUN   apt-get update &&  apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev wget
+RUN   apt-get update &&  apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev wget unzip
 
 
 # Install rbenv and ruby-build

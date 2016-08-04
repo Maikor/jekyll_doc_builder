@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-ENV RUBY_VERSION 2.2.0
+ENV RUBY_VERSION 2.3.0
 ENV HOME /root
 # Add repositoroes and install dependencies
 
